@@ -115,8 +115,6 @@ if (!ext.supportLinearFiltering) {
     config.SUNRAYS = false;
 }
 
-startGUI();
-
 function getWebGLContext (canvas) {
     var params = { alpha: true, depth: false, stencil: false, antialias: false, preserveDrawingBuffer: false };
 
